@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-29T23:16:11.170Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="33uaztkuYJIJjegqB269" version="22.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-29T23:18:44.109Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="TRkDQpX1et-ji_2ywkJr" version="22.0.0" type="github">
   <diagram name="Page-1" id="wvW3ehxdYdoYtSaxa3fH">
-    <mxGraphModel dx="1687" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="667" dy="367" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -159,8 +159,25 @@
         <mxCell id="QZf3iz8cE-q2q2WU4exR-22" value="Check Domain&lt;br&gt;(DomainTools)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1380" y="230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QZf3iz8cE-q2q2WU4exR-26" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1570" y="230" width="120" height="60" as="geometry" />
+        <mxCell id="QZf3iz8cE-q2q2WU4exR-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QZf3iz8cE-q2q2WU4exR-26" target="QZf3iz8cE-q2q2WU4exR-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QZf3iz8cE-q2q2WU4exR-35" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QZf3iz8cE-q2q2WU4exR-32">
+          <mxGeometry x="-0.3212" relative="1" as="geometry">
+            <mxPoint x="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QZf3iz8cE-q2q2WU4exR-26" value="Conditional -&amp;gt;&amp;nbsp;Verify the Status&lt;br&gt;(Contains Text)&lt;br&gt;Input :&amp;nbsp;{{ $.PlaybookData.[&quot;Check Domain1&quot;].rawData[*].response.registration.statuses }}&lt;br&gt;Search Value : ok" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="220" width="310" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QZf3iz8cE-q2q2WU4exR-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QZf3iz8cE-q2q2WU4exR-31" target="QZf3iz8cE-q2q2WU4exR-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QZf3iz8cE-q2q2WU4exR-31" value="Remediation" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1940" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QZf3iz8cE-q2q2WU4exR-33" value="Send Email to SOC Manager&lt;br&gt;(Send Email)&lt;br&gt;Require Reply" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="230" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
