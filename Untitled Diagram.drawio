@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-29T23:04:08.200Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="jjPl0JIUxIoCGW-VP8d_" version="22.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-29T23:08:01.212Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="ZeXwLxXdcZPTDkXy0ecR" version="22.0.0" type="github">
   <diagram name="Page-1" id="wvW3ehxdYdoYtSaxa3fH">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -37,8 +37,50 @@
         <mxCell id="StfwGNy7qWY20ujgkw8x-8" value="Source IP Address" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="110" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="StfwGNy7qWY20ujgkw8x-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="StfwGNy7qWY20ujgkw8x-10" target="StfwGNy7qWY20ujgkw8x-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="StfwGNy7qWY20ujgkw8x-10" value="3. User Enrichment" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="790" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="StfwGNy7qWY20ujgkw8x-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="StfwGNy7qWY20ujgkw8x-13" target="StfwGNy7qWY20ujgkw8x-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="StfwGNy7qWY20ujgkw8x-13" value="List Agents" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="StfwGNy7qWY20ujgkw8x-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="StfwGNy7qWY20ujgkw8x-15" target="StfwGNy7qWY20ujgkw8x-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="StfwGNy7qWY20ujgkw8x-15" value="4. Correlation" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="StfwGNy7qWY20ujgkw8x-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="StfwGNy7qWY20ujgkw8x-17" target="StfwGNy7qWY20ujgkw8x-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="StfwGNy7qWY20ujgkw8x-17" value="Extract Agent IP Address" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="StfwGNy7qWY20ujgkw8x-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="StfwGNy7qWY20ujgkw8x-19" target="StfwGNy7qWY20ujgkw8x-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="StfwGNy7qWY20ujgkw8x-19" value="Conditional -&amp;gt; If the source IP is a agent&lt;br&gt;(Contains Multiple Texts)&lt;br&gt;Input :&amp;nbsp;{{ $.PlaybookData.[&quot;List Agents&quot;].rawData.data[*].lastIpToMgmt }}&lt;br&gt;Value : {{ $.PlaybookData.[&quot;Source IP Address&quot;].returnData }}" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="37.5" width="340" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="StfwGNy7qWY20ujgkw8x-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="StfwGNy7qWY20ujgkw8x-21" target="StfwGNy7qWY20ujgkw8x-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="StfwGNy7qWY20ujgkw8x-21" value="Extract the Agent ID of affected host" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="StfwGNy7qWY20ujgkw8x-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="StfwGNy7qWY20ujgkw8x-23" target="StfwGNy7qWY20ujgkw8x-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="StfwGNy7qWY20ujgkw8x-23" value="Quarantine Host" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="StfwGNy7qWY20ujgkw8x-25" value="Incident Close" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2380" y="50" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
