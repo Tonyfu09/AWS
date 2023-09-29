@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-29T00:11:26.927Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="UAH0d95qfQmPdCA2ukFF" version="22.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-29T16:49:33.540Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="4usV0CA8wAZ7NAPsoQX4" version="22.0.0" type="github">
   <diagram name="Page-1" id="cwybNSRcBqoiXeZlBdzs">
-    <mxGraphModel dx="989" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,14 +10,18 @@
         <mxCell id="MJPwF4VIV7iISC6x9YVc-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="160" y="810" width="570" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="MJPwF4VIV7iISC6x9YVc-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.455;exitY=-0.012;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-R3WZB7WXWH-dfvJJ9M2-1" target="MJPwF4VIV7iISC6x9YVc-12" edge="1">
+        <mxCell id="MJPwF4VIV7iISC6x9YVc-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.473;exitY=-0.026;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-R3WZB7WXWH-dfvJJ9M2-1" target="MJPwF4VIV7iISC6x9YVc-12" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="499.9999999999998" y="230.0344827586207" as="sourcePoint" />
-            <mxPoint x="594.9655172413793" y="150" as="targetPoint" />
+            <mxPoint x="539.995" y="227.78500000000008" as="sourcePoint" />
+            <mxPoint x="685.8199999999998" y="129.9999999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="267" />
+              <mxPoint x="540" y="191" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-R3WZB7WXWH-dfvJJ9M2-1" value="2. Plan &lt;br&gt;&amp;nbsp;- what user to assign&lt;br&gt;- what is the permission&lt;br&gt;- How long for the permission&lt;br&gt;- Predefine the role" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="440" y="278.75" width="185" height="82.5" as="geometry" />
+        <mxCell id="-R3WZB7WXWH-dfvJJ9M2-1" value="2. Plan &lt;br&gt;&amp;nbsp;- what user to assign (Dev, System Engineer, Security)&lt;br&gt;- what is the permission (IAM AA)&lt;br&gt;- How long for the permission (Fit with the project?)&lt;br&gt;- Predefine the role" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="450" y="270" width="185" height="101.25" as="geometry" />
         </mxCell>
         <mxCell id="-R3WZB7WXWH-dfvJJ9M2-2" value="Azure-RBAC" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="705" width="90" height="40" as="geometry" />
@@ -50,9 +54,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MJPwF4VIV7iISC6x9YVc-12" value="3. Apply&lt;br&gt;Apply the change by Terraform&lt;br&gt;- Assume a role" style="whiteSpace=wrap;html=1;rounded=1;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="660" y="200" width="120" height="60" as="geometry" />
+          <mxGeometry x="670" y="161" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MJPwF4VIV7iISC6x9YVc-14" value="4. Return back the premission" style="whiteSpace=wrap;html=1;rounded=1;gradientColor=none;" parent="1" vertex="1">
+        <mxCell id="MJPwF4VIV7iISC6x9YVc-14" value="4. Return back the permission" style="whiteSpace=wrap;html=1;rounded=1;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="660" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lfvyzoI2TxKPpFQuySaG-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lfvyzoI2TxKPpFQuySaG-1" target="-R3WZB7WXWH-dfvJJ9M2-1">
