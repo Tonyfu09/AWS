@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-02T23:52:16.745Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="0Zmhywoz4KBu46EQ8qXJ" version="22.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-02T23:52:33.108Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="6f5NpO5zV56c-3UUH-lk" version="22.0.0" type="github">
   <diagram name="Page-1" id="cwybNSRcBqoiXeZlBdzs">
     <mxGraphModel dx="1134" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -14,7 +14,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-R3WZB7WXWH-dfvJJ9M2-1" value="2. Plan&lt;br&gt;Create a &quot;.tf&quot; HCL file with the defined policy." style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;align=center;" parent="1" vertex="1">
-          <mxGeometry x="480" y="280" width="120" height="70" as="geometry" />
+          <mxGeometry x="460" y="280" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-R3WZB7WXWH-dfvJJ9M2-2" value="Azure-RBAC" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="665" width="90" height="40" as="geometry" />
@@ -47,10 +47,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MJPwF4VIV7iISC6x9YVc-12" value="3. Apply the change by Terraform to&amp;nbsp;Attaches a Managed IAM Policy to an IAM user" style="whiteSpace=wrap;html=1;rounded=1;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="680" y="280" width="160" height="70.63" as="geometry" />
+          <mxGeometry x="640" y="280" width="160" height="70.63" as="geometry" />
         </mxCell>
         <mxCell id="MJPwF4VIV7iISC6x9YVc-14" value="4. Utilize the Output module to review the current user permissions." style="whiteSpace=wrap;html=1;rounded=1;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="680" y="400" width="160" height="60" as="geometry" />
+          <mxGeometry x="640" y="400" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lfvyzoI2TxKPpFQuySaG-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lfvyzoI2TxKPpFQuySaG-1" target="-R3WZB7WXWH-dfvJJ9M2-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
