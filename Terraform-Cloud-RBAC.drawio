@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-02T19:25:21.003Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="f3wrW2Wgdh2G9JVscjhC" version="22.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-02T19:26:22.818Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="rZCDFVx9IGFz8EZK4BVf" version="22.0.0" type="github">
   <diagram name="Page-1" id="cwybNSRcBqoiXeZlBdzs">
     <mxGraphModel dx="794" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="nVEypE2ftel6xT6gZw82-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-R3WZB7WXWH-dfvJJ9M2-1" target="MJPwF4VIV7iISC6x9YVc-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-R3WZB7WXWH-dfvJJ9M2-1" value="2. Plan &lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;Write &quot;.tf&quot; HCL with the define policy&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;align=center;" parent="1" vertex="1">
+        <mxCell id="-R3WZB7WXWH-dfvJJ9M2-1" value="2. Plan&lt;br&gt;Create a &quot;.tf&quot; HCL file with the defined policy." style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;align=center;" parent="1" vertex="1">
           <mxGeometry x="480" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-R3WZB7WXWH-dfvJJ9M2-2" value="Azure-RBAC" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
