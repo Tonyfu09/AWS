@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-02T20:25:51.866Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="EfKYG-P2EAoSFJ7z2hHi" version="22.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-02T20:26:30.577Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="6hOkS8neZlriJI_g3cRu" version="22.0.0" type="github">
   <diagram name="Page-1" id="cwybNSRcBqoiXeZlBdzs">
     <mxGraphModel dx="794" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -49,8 +49,8 @@
         <mxCell id="MJPwF4VIV7iISC6x9YVc-12" value="3. Apply the change by Terraform to&amp;nbsp;Attaches a Managed IAM Policy to an IAM user" style="whiteSpace=wrap;html=1;rounded=1;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="680" y="290.63" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MJPwF4VIV7iISC6x9YVc-14" value="4. Return back the permission" style="whiteSpace=wrap;html=1;rounded=1;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="700" y="400" width="120" height="40" as="geometry" />
+        <mxCell id="MJPwF4VIV7iISC6x9YVc-14" value="4. Get Output to review the current user permission" style="whiteSpace=wrap;html=1;rounded=1;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="700" y="400" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lfvyzoI2TxKPpFQuySaG-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lfvyzoI2TxKPpFQuySaG-1" target="-R3WZB7WXWH-dfvJJ9M2-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
