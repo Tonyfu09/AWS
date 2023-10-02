@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-02T06:41:24.510Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="Fv5G7TwupweX7SNLlIgp" version="22.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-02T06:42:30.093Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="uxk6MSscL7Xo99s2AcYN" version="22.0.0" type="github">
   <diagram name="Page-1" id="cwybNSRcBqoiXeZlBdzs">
     <mxGraphModel dx="794" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -10,15 +10,8 @@
         <mxCell id="MJPwF4VIV7iISC6x9YVc-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="160" y="670" width="570" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="MJPwF4VIV7iISC6x9YVc-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.473;exitY=-0.026;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-R3WZB7WXWH-dfvJJ9M2-1" target="MJPwF4VIV7iISC6x9YVc-12" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="539.995" y="227.78500000000008" as="sourcePoint" />
-            <mxPoint x="685.8199999999998" y="129.9999999999999" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="540" y="267" />
-              <mxPoint x="540" y="191" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="nVEypE2ftel6xT6gZw82-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-R3WZB7WXWH-dfvJJ9M2-1" target="MJPwF4VIV7iISC6x9YVc-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-R3WZB7WXWH-dfvJJ9M2-1" value="2. Plan &lt;br&gt;&amp;nbsp;- what user to assign (Dev, System Engineer, Security)&lt;br&gt;- what is the permission (IAM AA)&lt;br&gt;- How long for the permission (Fit with the project?)&lt;br&gt;- Predefine the role" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="450" y="270" width="185" height="101.25" as="geometry" />
@@ -50,14 +43,14 @@
         <mxCell id="MJPwF4VIV7iISC6x9YVc-11" value="Implementing Automated IAM User Permission Assignment Workflow" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="275" y="120" width="340" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MJPwF4VIV7iISC6x9YVc-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MJPwF4VIV7iISC6x9YVc-12" target="MJPwF4VIV7iISC6x9YVc-14" edge="1">
+        <mxCell id="nVEypE2ftel6xT6gZw82-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MJPwF4VIV7iISC6x9YVc-12" target="MJPwF4VIV7iISC6x9YVc-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MJPwF4VIV7iISC6x9YVc-12" value="3. Apply&lt;br&gt;Apply the change by Terraform&lt;br&gt;- Assume a role" style="whiteSpace=wrap;html=1;rounded=1;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="670" y="161" width="120" height="60" as="geometry" />
+          <mxGeometry x="680" y="290.63" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MJPwF4VIV7iISC6x9YVc-14" value="4. Return back the permission" style="whiteSpace=wrap;html=1;rounded=1;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="670" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="680" y="400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lfvyzoI2TxKPpFQuySaG-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lfvyzoI2TxKPpFQuySaG-1" target="-R3WZB7WXWH-dfvJJ9M2-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
