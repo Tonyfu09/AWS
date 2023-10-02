@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-02T17:58:52.138Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="CawyqdMKq-ULXf68bqh-" version="22.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-02T17:59:21.496Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="N21GkUiopCtE82SQdPeP" version="22.0.0" type="github">
   <diagram name="Page-1" id="cwybNSRcBqoiXeZlBdzs">
     <mxGraphModel dx="794" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -46,7 +46,7 @@
         <mxCell id="nVEypE2ftel6xT6gZw82-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MJPwF4VIV7iISC6x9YVc-12" target="MJPwF4VIV7iISC6x9YVc-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MJPwF4VIV7iISC6x9YVc-12" value="3. Apply&lt;br&gt;Apply the change by Terraform&lt;br&gt;- Assume a role" style="whiteSpace=wrap;html=1;rounded=1;gradientColor=none;" parent="1" vertex="1">
+        <mxCell id="MJPwF4VIV7iISC6x9YVc-12" value="3. Apply&lt;br&gt;Apply the change by Terraform to Assume a role" style="whiteSpace=wrap;html=1;rounded=1;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="680" y="290.63" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MJPwF4VIV7iISC6x9YVc-14" value="4. Return back the permission" style="whiteSpace=wrap;html=1;rounded=1;gradientColor=none;" parent="1" vertex="1">
