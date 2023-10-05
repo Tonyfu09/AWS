@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-05T19:14:04.757Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="XZAH_qnEjbs84rei53-p" version="22.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-05T19:14:23.987Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="bunQdgotLvugjV5ZyCXI" version="22.0.2" type="github">
   <diagram name="Page-1" id="wvW3ehxdYdoYtSaxa3fH">
     <mxGraphModel dx="700" dy="345" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -15,7 +15,7 @@
             <mxPoint x="440" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="StfwGNy7qWY20ujgkw8x-2" value="Qradar Offences&lt;br&gt;(Fetch Incident)" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="StfwGNy7qWY20ujgkw8x-2" value="Get malicious process&lt;br&gt;(Fetch Incident)" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QZf3iz8cE-q2q2WU4exR-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QZf3iz8cE-q2q2WU4exR-1" target="StfwGNy7qWY20ujgkw8x-1" edge="1">
