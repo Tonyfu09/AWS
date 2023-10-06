@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-06T17:42:04.635Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="09QB6PLmL1PcuJMl9Txo" version="22.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-06T17:42:34.105Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="ccPvDhR3urFE6ndc9QrI" version="22.0.2" type="github">
   <diagram name="Page-1" id="wvW3ehxdYdoYtSaxa3fH">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -51,10 +51,10 @@
             <mxPoint x="830" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9GNjWfNAqhbEPRqdgNwU-7" value="Scan the Devices" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="9GNjWfNAqhbEPRqdgNwU-7" value="Lookup the user in the AD to check the activity" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="830" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9GNjWfNAqhbEPRqdgNwU-8" value="Scan the Devices" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="9GNjWfNAqhbEPRqdgNwU-8" value="Monitoring the log in firewall" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="830" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9GNjWfNAqhbEPRqdgNwU-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="9GNjWfNAqhbEPRqdgNwU-1" target="9GNjWfNAqhbEPRqdgNwU-8">
