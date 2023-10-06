@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-06T17:42:34.105Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="ccPvDhR3urFE6ndc9QrI" version="22.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-06T17:43:45.842Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="YYFq0u-tuXHWF5oUqNMf" version="22.0.2" type="github">
   <diagram name="Page-1" id="wvW3ehxdYdoYtSaxa3fH">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -42,6 +42,9 @@
         <mxCell id="9GNjWfNAqhbEPRqdgNwU-2" value="2. Investigation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="190" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="9GNjWfNAqhbEPRqdgNwU-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9GNjWfNAqhbEPRqdgNwU-4" target="9GNjWfNAqhbEPRqdgNwU-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9GNjWfNAqhbEPRqdgNwU-4" value="Scan the Devices" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="830" y="190" width="120" height="60" as="geometry" />
         </mxCell>
@@ -62,6 +65,9 @@
             <mxPoint x="760" y="210" as="sourcePoint" />
             <mxPoint x="840" y="140" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="9GNjWfNAqhbEPRqdgNwU-10" value="3. Remediation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="190" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
