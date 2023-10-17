@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T23:06:56.157Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="v2Np4gfCsypdQ6tBlEln" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T23:09:53.345Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="677bQszhT5TV60p55vMN" version="22.0.4" type="github">
   <diagram name="Page-1" id="wvW3ehxdYdoYtSaxa3fH">
     <mxGraphModel dx="724" dy="396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -286,6 +286,12 @@
         <mxCell id="NKeEgVbL9whLPdXC6YmX-116" value="&lt;h1&gt;Output&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2150" y="630" width="200" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-126" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NKeEgVbL9whLPdXC6YmX-117" target="NKeEgVbL9whLPdXC6YmX-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NKeEgVbL9whLPdXC6YmX-117" target="NKeEgVbL9whLPdXC6YmX-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NKeEgVbL9whLPdXC6YmX-117" value="Get Emails from Senders" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="2455" y="320" width="195" height="60" as="geometry" />
         </mxCell>
@@ -303,6 +309,21 @@
         </mxCell>
         <mxCell id="NKeEgVbL9whLPdXC6YmX-124" value="&lt;h1&gt;Output&lt;/h1&gt;&lt;p&gt;{&#39;User Info&#39;: {&#39;Display Name&#39;: Undefined, &#39;First Name&#39;: &#39;&#39;, &#39;Last Name&#39;: &#39;&#39;, &#39;Email&#39;: Undefined, &#39;Job Title&#39;: &#39;Administrator&#39;}, &#39;User Group&#39;: &#39;&#39;, &#39;User Manager&#39;: {&#39;First Name&#39;: &#39;&#39;, &#39;Last Name&#39;: &#39;&#39;, &#39;Email&#39;: &#39;hhe@d3security.com&#39;, &#39;Job Title&#39;: &#39;Manager&#39;}, &#39;userActivity&#39;: []}&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2480" y="630" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-130" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NKeEgVbL9whLPdXC6YmX-125" target="NKeEgVbL9whLPdXC6YmX-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-125" value="Get All Recipients from the Senders&lt;br&gt;Data Formatter -&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2710" y="260" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-127" value="Update IOA-Sender" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2710" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-129" value="Investigation-Sender Correlation&lt;br&gt;Command - RSA_InvestigationTableUpdate" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2990" y="260" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-131" value="&lt;h1&gt;Input&lt;/h1&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;Command Name&lt;/div&gt;&lt;div&gt;RSA_InvestigationTableUpdate&lt;/div&gt;&lt;div&gt;Parameter 1: Incident No.&lt;/div&gt;&lt;div&gt;20230425-1573&lt;/div&gt;&lt;div&gt;Parameter 2: Investigation Section&lt;/div&gt;&lt;div&gt;Findings: Data Correlations&lt;/div&gt;&lt;div&gt;Parameter 3: Data&lt;/div&gt;&lt;div&gt;[]&lt;/div&gt;&lt;div&gt;Parameter 4: Data Field Title&lt;/div&gt;&lt;div&gt;Parameter 5: Data Field Name&lt;/div&gt;&lt;div&gt;Parameter 6: Title&lt;/div&gt;&lt;div&gt;Email Information from Malicious Senders&lt;/div&gt;&lt;div&gt;Parameter 7: Description&lt;/div&gt;&lt;div&gt;Correlate MS 365 Defender to get all email information related to malicious sender email addresses&lt;/div&gt;&lt;div&gt;Parameter 8: Highlight Values&lt;/div&gt;[&quot;phish@d3soar.com&quot;]&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3015" y="120" width="200" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
