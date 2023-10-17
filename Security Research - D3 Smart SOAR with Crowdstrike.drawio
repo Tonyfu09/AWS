@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T22:50:14.586Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="ZFZ_7KQlQHiX0FTG3stY" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T22:51:18.757Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="diffXS-fn9wG6sH5Fxfv" version="22.0.4" type="github">
   <diagram name="Page-1" id="wvW3ehxdYdoYtSaxa3fH">
     <mxGraphModel dx="1050" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -217,7 +217,7 @@
             <mxPoint x="1060" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NKeEgVbL9whLPdXC6YmX-93" value="&lt;h1&gt;Input&lt;/h1&gt;&lt;div&gt;Data :&amp;nbsp;&lt;/div&gt;[{&quot;Algorithm&quot;:&quot;SHA256&quot;,&quot;Hash&quot;:&quot;BD85402436CE4EC7AE312C8863F60A04CA3893F94FDFD3C468EB7F8C05FDAC81&quot;,&quot;Path&quot;:&quot;C:\\windows\\commander.exe&quot;}]&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-93" value="&lt;h1&gt;Input&lt;/h1&gt;&lt;div&gt;Data :&amp;nbsp;&lt;/div&gt;[{&quot;Algorithm&quot;:&quot;SHA256&quot;,&quot;Hash&quot;:&quot;BD85402436CE4EC7AE312C8863F60A04CA3893F94FDFD3C468EB7F8C05FDAC81&quot;,&quot;Path&quot;:&quot;C:\\windows\\commander.exe&quot;}]&lt;br&gt;&lt;br&gt;Title :&amp;nbsp;Commander.exe Enrichment&lt;br&gt;&lt;br&gt;Description :&amp;nbsp;Get the hash value of the executor command.exe&lt;br&gt;&lt;br&gt;Highlight Values :&amp;nbsp;[&quot;AC0CE449E9FCCCC2F1747833C37FF0D1CD22875DD925A247A15F04EE0B318A58&quot;]&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1070" y="460" width="200" height="100" as="geometry" />
         </mxCell>
         <mxCell id="NKeEgVbL9whLPdXC6YmX-94" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
