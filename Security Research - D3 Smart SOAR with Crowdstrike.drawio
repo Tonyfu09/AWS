@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T22:41:04.415Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="KfoVM7a9KSd-lyf-zaSP" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T22:43:08.108Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="2Dd-38isf68Ct_AFhTYh" version="22.0.4" type="github">
   <diagram name="Page-1" id="wvW3ehxdYdoYtSaxa3fH">
-    <mxGraphModel dx="1050" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2100" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -107,7 +107,7 @@
           <mxGeometry x="80" y="110" width="320" height="70" as="geometry" />
         </mxCell>
         <mxCell id="NKeEgVbL9whLPdXC6YmX-57" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="40" y="90" width="3460" height="820" as="geometry" />
+          <mxGeometry x="320" y="70" width="3460" height="820" as="geometry" />
         </mxCell>
         <mxCell id="NKeEgVbL9whLPdXC6YmX-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NKeEgVbL9whLPdXC6YmX-58" target="NKeEgVbL9whLPdXC6YmX-59">
           <mxGeometry relative="1" as="geometry" />
@@ -180,6 +180,18 @@
         </mxCell>
         <mxCell id="NKeEgVbL9whLPdXC6YmX-82" value="&lt;h1&gt;Output&lt;/h1&gt;&lt;p&gt;{&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;File Path&quot;: [&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &quot;c:\\windows\\commander.exe&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &quot;C:\\Windows\\System32\\spool\\drivers\\color\\tmp.vbs &amp;amp;amp;schtasks &quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &quot;C:\\Windows\\System32\\spool\\drivers\\color\\tmp.vbs&quot;&lt;/p&gt;&lt;p&gt;&amp;nbsp; ],&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;File Name&quot;: [&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &quot;Wscript.Shell&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &quot;d3commander.msi&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &quot;commander.exe&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &quot;tmp.vbs&quot;&lt;/p&gt;&lt;p&gt;&amp;nbsp; ]&lt;/p&gt;&lt;p&gt;}&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="650" y="140" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-83" value="&lt;h1&gt;Input&lt;/h1&gt;&lt;p&gt;Endpoint ID :&amp;nbsp;&lt;/p&gt;&amp;nbsp;[&quot;cec1b3eb10ca45a0a33690ec7b9fb805&quot;,&quot;cec1b3eb10ca45a0a33690ec7b9fb805&quot;,&quot;cec1b3eb10ca45a0a33690ec7b9fb805&quot;,&quot;cec1b3eb10ca45a0a33690ec7b9fb805&quot;]&lt;br&gt;&lt;br&gt;File Path :&amp;nbsp;&lt;br&gt;&lt;br&gt;c:\windows\commander.exe" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="100" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-84" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NKeEgVbL9whLPdXC6YmX-77" target="NKeEgVbL9whLPdXC6YmX-83">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="950" y="260" as="sourcePoint" />
+            <mxPoint x="1040" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-85" value="&lt;h1&gt;Output&lt;/h1&gt;&lt;p&gt;{&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;Algorithm&quot;: &quot;SHA256&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;Hash&quot;: &quot;BD85402436CE4EC7AE312C8863F60A04CA3893F94FDFD3C468EB7F8C05FDAC81&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;Path&quot;: &quot;C:\\windows\\commander.exe&quot;&lt;/p&gt;&lt;p&gt;}&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="140" width="200" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
