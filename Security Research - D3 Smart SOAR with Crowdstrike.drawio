@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T23:41:49.864Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="nEEYBmP73c-7sZmQ0Y1E" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T23:47:08.854Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="cSB4bJbiY_N1QrhHKs7V" version="22.0.4" type="github">
   <diagram name="Page-1" id="wvW3ehxdYdoYtSaxa3fH">
-    <mxGraphModel dx="1235" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1500" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -493,8 +493,11 @@
         <mxCell id="NKeEgVbL9whLPdXC6YmX-186" value="&lt;h1&gt;Output&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="5300" y="440" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="NKeEgVbL9whLPdXC6YmX-187" value="Containment&lt;br&gt;Stage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="7740" y="295" width="120" height="60" as="geometry" />
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-237" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NKeEgVbL9whLPdXC6YmX-187" target="NKeEgVbL9whLPdXC6YmX-236">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-187" value="Containment&lt;br&gt;Stage -&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="8030" y="315" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NKeEgVbL9whLPdXC6YmX-195" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NKeEgVbL9whLPdXC6YmX-190" target="NKeEgVbL9whLPdXC6YmX-198">
           <mxGeometry relative="1" as="geometry">
@@ -568,7 +571,13 @@
         <mxCell id="NKeEgVbL9whLPdXC6YmX-211" value="Convert to Strings&lt;br&gt;Data Formatter -&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="6780" y="770" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NKeEgVbL9whLPdXC6YmX-213" value="Extract Artifacts&lt;br&gt;Command -&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-223" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NKeEgVbL9whLPdXC6YmX-213" target="NKeEgVbL9whLPdXC6YmX-222">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-225" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NKeEgVbL9whLPdXC6YmX-213" target="NKeEgVbL9whLPdXC6YmX-224">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-213" value="Extract Artifacts&lt;br&gt;Command - IOCs Extration" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="7105" y="770" width="265" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NKeEgVbL9whLPdXC6YmX-215" value="&lt;h1&gt;Input&lt;/h1&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Data Formatter&lt;/div&gt;&lt;div&gt;{% set cmd = PlaybookData | jsonpath(&#39;$.[&quot;Get Process Details by IPv4&quot;].returnData[*].command_line&#39;)|to_list|unique %}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;{{cmd}}&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
@@ -591,6 +600,53 @@
         </mxCell>
         <mxCell id="NKeEgVbL9whLPdXC6YmX-221" value="&lt;h1&gt;Output&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;urls&quot;: [],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;xmpp_addresses&quot;: [],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;email_addresses_complete&quot;: [],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;email_addresses&quot;: [],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;ipv4_cidrs&quot;: [],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;imphashes&quot;: [],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;authentihashes&quot;: [],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;domains&quot;: [],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;ipv4s&quot;: [],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;ipv6s&quot;: [],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;sha512s&quot;: [],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;sha256s&quot;: [],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;sha1s&quot;: [],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;md5s&quot;: [],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;ssdeeps&quot;: [],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;asns&quot;: [],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;cves&quot;: [],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;registry_key_paths&quot;: [],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;google_adsense_publisher_ids&quot;: [],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;google_analytics_tracker_ids&quot;: [],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;bitcoin_addresses&quot;: [],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;monero_addresses&quot;: [],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;mac_addresses&quot;: [],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;user_agents&quot;: [],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;phone_numbers&quot;: [],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;tlp_labels&quot;: [],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;attack_mitigations&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;enterprise&quot;: [],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;mobile&quot;: []&lt;/div&gt;&lt;div&gt;&amp;nbsp; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;attack_tactics&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;pre_attack&quot;: [],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;enterprise&quot;: [],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;mobile&quot;: []&lt;/div&gt;&lt;div&gt;&amp;nbsp; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;attack_techniques&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;pre_attack&quot;: [],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;enterprise&quot;: [],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;mobile&quot;: []&lt;/div&gt;&lt;div&gt;&amp;nbsp; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;file_paths&quot;: []&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="7140" y="627.5" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-227" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NKeEgVbL9whLPdXC6YmX-222" target="NKeEgVbL9whLPdXC6YmX-226">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-228" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NKeEgVbL9whLPdXC6YmX-227">
+          <mxGeometry x="0.2029" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-222" value="Any potential C2 Server Domain found?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="7520" y="630" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-224" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7470" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-231" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NKeEgVbL9whLPdXC6YmX-226" target="NKeEgVbL9whLPdXC6YmX-187">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-233" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NKeEgVbL9whLPdXC6YmX-226" target="NKeEgVbL9whLPdXC6YmX-232">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-226" value="Completed C2 Analysis&lt;br&gt;Stage -&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7750" y="455" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-229" value="&lt;h1&gt;Input&lt;/h1&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;{% set domains = PlaybookData | jsonpath(&#39;$.[&quot;Extract Artifacts&quot;].returnData.domains&#39;)|to_list|remove_empty_value_from_array%}&lt;/div&gt;&lt;div&gt;{{domains|length &amp;gt; 0}}&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="7450" y="432.5" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-230" value="&lt;h1&gt;Output&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="7450" y="467.5" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-232" value="Investigation - Update Mitigations&lt;br&gt;Command - Add Investigation Details" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="8030" y="540" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-234" value="&lt;h1&gt;Input&lt;/h1&gt;&lt;div&gt;incident no&lt;br&gt;Investigation Section&lt;br&gt;Data&lt;br&gt;Data Field Title&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="8140" y="387.5" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-235" value="&lt;h1&gt;Output&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="8140" y="422.5" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-236" value="Isolate Hosts&lt;br&gt;Command - Isolate Host - CrowdStrike (From v2)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="8470" y="315" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-238" value="&lt;h1&gt;Input&lt;br&gt;&lt;/h1&gt;&lt;div&gt;host ID :&amp;nbsp;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="8570" y="150" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-239" value="&lt;h1&gt;Output&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="8570" y="185" width="200" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
