@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T22:52:22.867Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="VarzzE7QlDZyvdn5XL0i" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T22:53:15.727Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="_zjQkKLk9c4OOYmSNcqB" version="22.0.4" type="github">
   <diagram name="Page-1" id="wvW3ehxdYdoYtSaxa3fH">
-    <mxGraphModel dx="1500" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="875" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -199,8 +199,11 @@
         <mxCell id="NKeEgVbL9whLPdXC6YmX-86" value="Investigation-Enrichment Commander&lt;br&gt;Command - RSA_InvestigationTableUpdate" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1035" y="370" width="240" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="NKeEgVbL9whLPdXC6YmX-90" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="270" width="120" height="60" as="geometry" />
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NKeEgVbL9whLPdXC6YmX-90" target="NKeEgVbL9whLPdXC6YmX-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-90" value="Correlation&lt;br&gt;Stage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NKeEgVbL9whLPdXC6YmX-92" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="NKeEgVbL9whLPdXC6YmX-90">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -216,6 +219,9 @@
             <mxPoint x="1170" y="460" as="sourcePoint" />
             <mxPoint x="1160" y="400" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-95" value="Splunk Search&lt;br&gt;Command - RSA_SplunkSearch" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="270" width="190" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
