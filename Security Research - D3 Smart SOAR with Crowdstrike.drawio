@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T23:35:16.271Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="RmaKMjcEwCu5dbMImD5C" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T23:36:28.503Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="SS0dMwLxneYjMQ90T4P2" version="22.0.4" type="github">
   <diagram name="Page-1" id="wvW3ehxdYdoYtSaxa3fH">
-    <mxGraphModel dx="1500" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="875" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -535,11 +535,11 @@
         <mxCell id="NKeEgVbL9whLPdXC6YmX-198" value="Get Malicious IPs&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Data Formatter" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5690" y="810" width="135" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="NKeEgVbL9whLPdXC6YmX-199" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5970" y="775" width="120" height="60" as="geometry" />
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-199" value="Get Process Details by IPv4&lt;br&gt;Command - RSA_CrowdstrikeGetProcessbyIOCs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5970" y="770" width="350" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NKeEgVbL9whLPdXC6YmX-200" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5970" y="940" width="120" height="60" as="geometry" />
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-200" value="Investigation-Correlate Malicious Outbound Connections&lt;br&gt;Command - RSA_CrowdstrikeGetProcessbyIOCs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5970" y="1020" width="350" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
