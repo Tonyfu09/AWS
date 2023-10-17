@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T23:47:08.854Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="cSB4bJbiY_N1QrhHKs7V" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T23:51:10.748Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="ikvNfXgcyULzXPO2rH7r" version="22.0.4" type="github">
   <diagram name="Page-1" id="wvW3ehxdYdoYtSaxa3fH">
     <mxGraphModel dx="1500" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -612,8 +612,14 @@
         <mxCell id="NKeEgVbL9whLPdXC6YmX-222" value="Any potential C2 Server Domain found?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="7520" y="630" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NKeEgVbL9whLPdXC6YmX-224" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="7470" y="960" width="120" height="60" as="geometry" />
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-243" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NKeEgVbL9whLPdXC6YmX-224" target="NKeEgVbL9whLPdXC6YmX-242">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-245" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NKeEgVbL9whLPdXC6YmX-224" target="NKeEgVbL9whLPdXC6YmX-244">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-224" value="Investigation - Link Ext amd Int IP&lt;br&gt;Command - RSA InvestigationIOAIOC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7470" y="1020" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NKeEgVbL9whLPdXC6YmX-231" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NKeEgVbL9whLPdXC6YmX-226" target="NKeEgVbL9whLPdXC6YmX-187">
           <mxGeometry relative="1" as="geometry" />
@@ -647,6 +653,30 @@
         </mxCell>
         <mxCell id="NKeEgVbL9whLPdXC6YmX-239" value="&lt;h1&gt;Output&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="8570" y="185" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-240" value="&lt;h1&gt;Input&lt;/h1&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;Command Name&lt;/div&gt;&lt;div&gt;RSA_InvestigationIOAIOC&lt;/div&gt;&lt;div&gt;Parameter 1: Type&lt;/div&gt;&lt;div&gt;IOA&lt;/div&gt;&lt;div&gt;Parameter 2: Sub Type&lt;/div&gt;&lt;div&gt;External IP&lt;/div&gt;&lt;div&gt;Parameter 3: Title&lt;/div&gt;&lt;div&gt;External IP Address Relationship&lt;/div&gt;&lt;div&gt;Parameter 4: Description&lt;/div&gt;&lt;div&gt;Parameter 5: Timestamp&lt;/div&gt;&lt;div&gt;2023-04-25 00:36:26&lt;/div&gt;&lt;div&gt;Parameter 6: Relation&lt;/div&gt;&lt;div&gt;216.251.148.181,sent outbound connection to,10.82.0.24|10.82.0.24,established duplex session With,216.251.148.181&lt;/div&gt;&lt;div&gt;Parameter 7: Incident No&lt;/div&gt;&lt;div&gt;20230425-1573&lt;/div&gt;&lt;div&gt;Parameter 8: Section&lt;/div&gt;&lt;div&gt;Findings: Indicators of Attack (IOA)&lt;/div&gt;&lt;div&gt;Parameter 9: 2nd Subtype&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="7520" y="850" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-241" value="&lt;h1&gt;Output&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="7520" y="885" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-242" value="Invesgitation - Link Executable and File Path&lt;br&gt;Command - RSA_InvestigationIOAIOC" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="7840" y="840" width="360" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-244" value="Investigation - IP IOC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7840" y="1110" width="390" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-246" value="&lt;h1&gt;Input&lt;/h1&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;Command Name&lt;/div&gt;&lt;div&gt;RSA_InvestigationIOAIOC&lt;/div&gt;&lt;div&gt;Parameter 1: Type&lt;/div&gt;&lt;div&gt;IOA&lt;/div&gt;&lt;div&gt;Parameter 2: Sub Type&lt;/div&gt;&lt;div&gt;Filename&lt;/div&gt;&lt;div&gt;Parameter 3: Title&lt;/div&gt;&lt;div&gt;Executable Details&lt;/div&gt;&lt;div&gt;Parameter 4: Description&lt;/div&gt;&lt;div&gt;Parameter 5: Timestamp&lt;/div&gt;&lt;div&gt;2023-04-25 00:36:26&lt;/div&gt;&lt;div&gt;Parameter 6: Relation&lt;/div&gt;&lt;div&gt;commander.exe, invokes password dumping,mimikatz.exe&lt;/div&gt;&lt;div&gt;Parameter 7: Incident No&lt;/div&gt;&lt;div&gt;20230425-1573&lt;/div&gt;&lt;div&gt;Parameter 8: Section&lt;/div&gt;&lt;div&gt;Findings: Indicators of Attack (IOA)&lt;/div&gt;&lt;div&gt;Parameter 9: 2nd Subtype&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="7930" y="667.5" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-247" value="&lt;h1&gt;Output&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="7930" y="702.5" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-248" value="&lt;h1&gt;Input&lt;/h1&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;Command Name&lt;/div&gt;&lt;div&gt;RSA_InvestigationIOAIOC&lt;/div&gt;&lt;div&gt;Parameter 1: Type&lt;/div&gt;&lt;div&gt;IOC&lt;/div&gt;&lt;div&gt;Parameter 2: Sub Type&lt;/div&gt;&lt;div&gt;External IP&lt;/div&gt;&lt;div&gt;Parameter 3: Title&lt;/div&gt;&lt;div&gt;Src to Dest IP&lt;/div&gt;&lt;div&gt;Parameter 4: Description&lt;/div&gt;&lt;div&gt;Parameter 5: Timestamp&lt;/div&gt;&lt;div&gt;2023-04-25 00:36:26&lt;/div&gt;&lt;div&gt;Parameter 6: Relation&lt;/div&gt;&lt;div&gt;216.251.148.181,send inbound connection to,10.82.0.24&lt;/div&gt;&lt;div&gt;Parameter 7: Incident No&lt;/div&gt;&lt;div&gt;20230425-1573&lt;/div&gt;&lt;div&gt;Parameter 8: Section&lt;/div&gt;&lt;div&gt;Findings: Indicators of Compromise (IOC)&lt;/div&gt;&lt;div&gt;Parameter 9: 2nd Subtype&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="7935" y="945" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-249" value="&lt;h1&gt;Output&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="7935" y="980" width="200" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
