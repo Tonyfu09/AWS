@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T23:11:42.313Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="H42LzF4XGUc4hNM1c3fH" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T23:15:11.101Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="FN7lRMSQBS2EQdsDyRfw" version="22.0.4" type="github">
   <diagram name="Page-1" id="wvW3ehxdYdoYtSaxa3fH">
-    <mxGraphModel dx="724" dy="396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="875" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -107,7 +107,7 @@
           <mxGeometry x="80" y="110" width="320" height="70" as="geometry" />
         </mxCell>
         <mxCell id="NKeEgVbL9whLPdXC6YmX-57" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="180" y="100" width="3460" height="820" as="geometry" />
+          <mxGeometry x="100" y="110" width="5410" height="1000" as="geometry" />
         </mxCell>
         <mxCell id="NKeEgVbL9whLPdXC6YmX-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NKeEgVbL9whLPdXC6YmX-58" target="NKeEgVbL9whLPdXC6YmX-59">
           <mxGeometry relative="1" as="geometry" />
@@ -295,6 +295,12 @@
         <mxCell id="NKeEgVbL9whLPdXC6YmX-117" value="Get Emails from Senders" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="2455" y="320" width="195" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-135" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NKeEgVbL9whLPdXC6YmX-119" target="NKeEgVbL9whLPdXC6YmX-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NKeEgVbL9whLPdXC6YmX-119" target="NKeEgVbL9whLPdXC6YmX-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NKeEgVbL9whLPdXC6YmX-119" value="Get User Information from Azure AD" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="2455" y="470" width="205" height="60" as="geometry" />
         </mxCell>
@@ -329,7 +335,28 @@
           <mxGeometry x="2740" y="120" width="200" height="100" as="geometry" />
         </mxCell>
         <mxCell id="NKeEgVbL9whLPdXC6YmX-133" value="&lt;h1&gt;Input&lt;/h1&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Command Name&lt;/div&gt;&lt;div&gt;RSA_InvestigationIOAIOC&lt;/div&gt;&lt;div&gt;Parameter 1: Type&lt;/div&gt;&lt;div&gt;IOA&lt;/div&gt;&lt;div&gt;Parameter 2: Sub Type&lt;/div&gt;&lt;div&gt;Artifact&lt;/div&gt;&lt;div&gt;Parameter 3: Title&lt;/div&gt;&lt;div&gt;Malicious Sender to Internal Email Address&lt;/div&gt;&lt;div&gt;Parameter 4: Description&lt;/div&gt;&lt;div&gt;Parameter 5: Timestamp&lt;/div&gt;&lt;div&gt;2023-04-25 00:36:26&lt;/div&gt;&lt;div&gt;Parameter 6: Relation&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Parameter 7: Incident No&lt;/div&gt;&lt;div&gt;20230425-1573&lt;/div&gt;&lt;div&gt;Parameter 8: Section&lt;/div&gt;&lt;div&gt;Findings: Indicators of Attack (IOA)&lt;/div&gt;&lt;div&gt;Parameter 9: 2nd Subtype&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2735" y="490" width="200" height="100" as="geometry" />
+          <mxGeometry x="3000" y="350" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-141" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NKeEgVbL9whLPdXC6YmX-134" target="NKeEgVbL9whLPdXC6YmX-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-134" value="Get Impacted Usernames&lt;br&gt;Data Formatter -&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2805" y="540" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-136" value="Investigation-Recipients Info&lt;br&gt;Command - RSA_InvestigationTableUpdate" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2790" y="790" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-138" value="&lt;h1&gt;Input&lt;/h1&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;Data Formatter&lt;/div&gt;&lt;div&gt;{% set impactedUsers = PlaybookData | jsonpath(&#39;$.[&quot;Get User Information from Azure AD&quot;].returnData[*][&quot;User Info&quot;][&quot;Display Name&quot;]&#39;)|to_list|plus([&quot;Administrator&quot;]) %}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;{% set outArray = []%}&lt;/div&gt;&lt;div&gt;{% for user in impactedUsers if impactedUsers%}&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; {% set object = {&quot;User&quot;: user} %}&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; {% set _temp = outArray.append(object)%}&lt;/div&gt;&lt;div&gt;{% endfor %}&lt;/div&gt;&lt;div&gt;{{outArray}}&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2815" y="610" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-139" value="&lt;h1&gt;Output&lt;/h1&gt;&lt;p&gt;[&lt;/p&gt;&lt;p&gt;&amp;nbsp; {&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &quot;User&quot;: &quot;&quot;&lt;/p&gt;&lt;p&gt;&amp;nbsp; },&lt;/p&gt;&lt;p&gt;&amp;nbsp; {&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &quot;User&quot;: &quot;Administrator&quot;&lt;/p&gt;&lt;p&gt;&amp;nbsp; }&lt;/p&gt;&lt;p&gt;]&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2815" y="650" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-140" value="Unwind&lt;br&gt;Stage -&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="3120" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-142" value="&lt;h1&gt;Input&lt;/h1&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Command Name&lt;/div&gt;&lt;div&gt;RSA_InvestigationTableUpdate&lt;/div&gt;&lt;div&gt;Parameter 1: Incident No.&lt;/div&gt;&lt;div&gt;20230425-1573&lt;/div&gt;&lt;div&gt;Parameter 2: Investigation Section&lt;/div&gt;&lt;div&gt;Findings: Data Correlations&lt;/div&gt;&lt;div&gt;Parameter 3: Data&lt;/div&gt;&lt;div&gt;[&quot;&quot;]&lt;/div&gt;&lt;div&gt;Parameter 4: Data Field Title&lt;/div&gt;&lt;div&gt;Parameter 5: Data Field Name&lt;/div&gt;&lt;div&gt;Parameter 6: Title&lt;/div&gt;&lt;div&gt;Recipients Information from Azure AD&lt;/div&gt;&lt;div&gt;Parameter 7: Description&lt;/div&gt;&lt;div&gt;Get user information from Azure AD&lt;/div&gt;&lt;div&gt;Parameter 8: Highlight Values&lt;/div&gt;&lt;div&gt;[&quot;phish@d3soar.com&quot;,&quot;support@d3soar.com&quot;]&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2815" y="880" width="200" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
