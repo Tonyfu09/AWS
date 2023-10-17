@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T23:15:11.101Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="FN7lRMSQBS2EQdsDyRfw" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T23:21:06.008Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="LoQMxkrlaVVE9B2HCCl1" version="22.0.4" type="github">
   <diagram name="Page-1" id="wvW3ehxdYdoYtSaxa3fH">
     <mxGraphModel dx="875" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -107,7 +107,7 @@
           <mxGeometry x="80" y="110" width="320" height="70" as="geometry" />
         </mxCell>
         <mxCell id="NKeEgVbL9whLPdXC6YmX-57" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="100" y="110" width="5410" height="1000" as="geometry" />
+          <mxGeometry x="90" y="220" width="5410" height="1000" as="geometry" />
         </mxCell>
         <mxCell id="NKeEgVbL9whLPdXC6YmX-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NKeEgVbL9whLPdXC6YmX-58" target="NKeEgVbL9whLPdXC6YmX-59">
           <mxGeometry relative="1" as="geometry" />
@@ -352,11 +352,65 @@
         <mxCell id="NKeEgVbL9whLPdXC6YmX-139" value="&lt;h1&gt;Output&lt;/h1&gt;&lt;p&gt;[&lt;/p&gt;&lt;p&gt;&amp;nbsp; {&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &quot;User&quot;: &quot;&quot;&lt;/p&gt;&lt;p&gt;&amp;nbsp; },&lt;/p&gt;&lt;p&gt;&amp;nbsp; {&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &quot;User&quot;: &quot;Administrator&quot;&lt;/p&gt;&lt;p&gt;&amp;nbsp; }&lt;/p&gt;&lt;p&gt;]&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2815" y="650" width="200" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-145" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NKeEgVbL9whLPdXC6YmX-140" target="NKeEgVbL9whLPdXC6YmX-144">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NKeEgVbL9whLPdXC6YmX-140" value="Unwind&lt;br&gt;Stage -&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="3120" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NKeEgVbL9whLPdXC6YmX-142" value="&lt;h1&gt;Input&lt;/h1&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Command Name&lt;/div&gt;&lt;div&gt;RSA_InvestigationTableUpdate&lt;/div&gt;&lt;div&gt;Parameter 1: Incident No.&lt;/div&gt;&lt;div&gt;20230425-1573&lt;/div&gt;&lt;div&gt;Parameter 2: Investigation Section&lt;/div&gt;&lt;div&gt;Findings: Data Correlations&lt;/div&gt;&lt;div&gt;Parameter 3: Data&lt;/div&gt;&lt;div&gt;[&quot;&quot;]&lt;/div&gt;&lt;div&gt;Parameter 4: Data Field Title&lt;/div&gt;&lt;div&gt;Parameter 5: Data Field Name&lt;/div&gt;&lt;div&gt;Parameter 6: Title&lt;/div&gt;&lt;div&gt;Recipients Information from Azure AD&lt;/div&gt;&lt;div&gt;Parameter 7: Description&lt;/div&gt;&lt;div&gt;Get user information from Azure AD&lt;/div&gt;&lt;div&gt;Parameter 8: Highlight Values&lt;/div&gt;&lt;div&gt;[&quot;phish@d3soar.com&quot;,&quot;support@d3soar.com&quot;]&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2815" y="880" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-149" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NKeEgVbL9whLPdXC6YmX-144" target="NKeEgVbL9whLPdXC6YmX-148">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NKeEgVbL9whLPdXC6YmX-144" target="NKeEgVbL9whLPdXC6YmX-150">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-144" value="Get User Logon Info&lt;br&gt;Command - RSA_CrowdstrikeUserLogonActivity" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="3320" y="540" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-146" value="&lt;h1&gt;Input&lt;/h1&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;Command Name&lt;/div&gt;&lt;div&gt;RSA_CrowdstrikeUserLogonActivity&lt;/div&gt;&lt;div&gt;Parameter 1: Username&lt;/div&gt;&lt;div&gt;Administrator&lt;/div&gt;&lt;div&gt;Parameter 2: Last Hours&lt;/div&gt;&lt;div&gt;96&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3365" y="340" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-147" value="&lt;h1&gt;Output&lt;/h1&gt;&lt;p&gt;Passdown to playbook data&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3365" y="380" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-157" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NKeEgVbL9whLPdXC6YmX-148" target="NKeEgVbL9whLPdXC6YmX-156">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-148" value="Extract Logon Host Aids&lt;br&gt;Data Formatter -&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="3670" y="480" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-150" value="Investigation-Correlate User Logon Activity" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="3670" y="620" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-152" value="&lt;h1&gt;Input&lt;/h1&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Data Formatter&lt;/div&gt;&lt;div&gt;{% set hostAids = PlaybookData | jsonpath(&#39;$.[&quot;Get User Logon Info&quot;].returnData.resources[*].aid&#39;)|to_list|unique|remove_empty_value_from_array%}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;{{hostAids}}&lt;/div&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3675" y="310" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-153" value="&lt;h1&gt;Output&lt;/h1&gt;&lt;p&gt;Passdown to playbook data&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3675" y="350" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-154" value="&lt;h1&gt;Input&lt;/h1&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Command Name&lt;/div&gt;&lt;div&gt;RSA_InvestigationTableUpdate&lt;/div&gt;&lt;div&gt;Parameter 1: Incident No.&lt;/div&gt;&lt;div&gt;20230425-1573&lt;/div&gt;&lt;div&gt;Parameter 2: Investigation Section&lt;/div&gt;&lt;div&gt;Findings: Data Correlations&lt;/div&gt;&lt;div&gt;Parameter 3: Data&lt;/div&gt;&lt;div&gt;[{&#39;User Name&#39;: Undefined, &#39;Host Name&#39;: Undefined, &#39;Timestamp&#39;: Undefined, &#39;Local IP&#39;: &#39;&#39;, &#39;Remote IP&#39;: &#39;&#39;, &#39;Country&#39;: &#39;&#39;, &#39;City&#39;: &#39;&#39;}]&lt;/div&gt;&lt;div&gt;Parameter 4: Data Field Title&lt;/div&gt;&lt;div&gt;Parameter 5: Data Field Name&lt;/div&gt;&lt;div&gt;Parameter 6: Title&lt;/div&gt;&lt;div&gt;User Login Activity in last 4 days&lt;/div&gt;&lt;div&gt;Parameter 7: Description&lt;/div&gt;&lt;div&gt;Parameter 8: Highlight Values&lt;/div&gt;&lt;div&gt;[]&lt;/div&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3675" y="720" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-155" value="&lt;h1&gt;Output&lt;/h1&gt;&lt;p&gt;Passdown to playbook data&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3675" y="770" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-161" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NKeEgVbL9whLPdXC6YmX-156" target="NKeEgVbL9whLPdXC6YmX-160">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-156" value="Merge Results&lt;br&gt;Merge" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="4005" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-158" value="&lt;h1&gt;Input&lt;/h1&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Command Name&lt;/div&gt;&lt;div&gt;Merge&lt;/div&gt;&lt;div&gt;Parameter 1: Condition&lt;/div&gt;&lt;div&gt;{&quot;groupBy&quot;:&quot;Playbook Instance&quot;,&quot;dataJsonPath&quot;:&quot;$[&#39;Extract Logon Host Aids&#39;].returnData&quot;}&lt;/div&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3990" y="320" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-159" value="&lt;h1&gt;Output&lt;/h1&gt;&lt;p&gt;{&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;options&quot;: {&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &quot;groupBy&quot;: &quot;Playbook Instance&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &quot;dataJsonPath&quot;: &quot;$[&#39;Extract Logon Host Aids&#39;].returnData&quot;&lt;/p&gt;&lt;p&gt;&amp;nbsp; },&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;total&quot;: 2,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;match&quot;: true&lt;/p&gt;&lt;p&gt;}&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3990" y="355" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-160" value="Reformat Data" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="4280" y="480" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
