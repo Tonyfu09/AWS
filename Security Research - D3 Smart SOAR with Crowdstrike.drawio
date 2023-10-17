@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T23:36:28.503Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="SS0dMwLxneYjMQ90T4P2" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T23:39:04.654Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="ycUxWf-9WtqKnwPkpF2j" version="22.0.4" type="github">
   <diagram name="Page-1" id="wvW3ehxdYdoYtSaxa3fH">
     <mxGraphModel dx="875" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -535,11 +535,53 @@
         <mxCell id="NKeEgVbL9whLPdXC6YmX-198" value="Get Malicious IPs&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Data Formatter" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5690" y="810" width="135" height="130" as="geometry" />
         </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-210" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NKeEgVbL9whLPdXC6YmX-199" target="NKeEgVbL9whLPdXC6YmX-209">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NKeEgVbL9whLPdXC6YmX-199" value="Get Process Details by IPv4&lt;br&gt;Command - RSA_CrowdstrikeGetProcessbyIOCs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5970" y="770" width="350" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NKeEgVbL9whLPdXC6YmX-200" value="Investigation-Correlate Malicious Outbound Connections&lt;br&gt;Command - RSA_CrowdstrikeGetProcessbyIOCs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5970" y="1020" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-205" value="&lt;h1&gt;Input&lt;/h1&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Command Name&lt;/div&gt;&lt;div&gt;RSA_CrowdstrikeGetProcessbyIOCs&lt;/div&gt;&lt;div&gt;Parameter 1: IOC Type&lt;/div&gt;&lt;div&gt;ipv4&lt;/div&gt;&lt;div&gt;Parameter 2: IOC Value&lt;/div&gt;&lt;div&gt;[&quot;52.33.195.208&quot;,&quot;100.64.0.6&quot;,&quot;204.79.197.239&quot;,&quot;13.107.21.239&quot;]&lt;/div&gt;&lt;div&gt;Parameter 3: Host Aids&lt;/div&gt;&lt;div&gt;[&quot; &quot;]&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="6045" y="590" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-206" value="&lt;h1&gt;Output&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="6045" y="625" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-207" value="&lt;h1&gt;Input&lt;/h1&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Command Name&lt;/div&gt;&lt;div&gt;RSA_InvestigationTableUpdate&lt;/div&gt;&lt;div&gt;Parameter 1: Incident No.&lt;/div&gt;&lt;div&gt;20230425-1573&lt;/div&gt;&lt;div&gt;Parameter 2: Investigation Section&lt;/div&gt;&lt;div&gt;Findings: Data Correlations&lt;/div&gt;&lt;div&gt;Parameter 3: Data&lt;/div&gt;&lt;div&gt;[{&quot;IP Address&quot;:&quot;52.33.195.208&quot;,&quot;Reputation&quot;:89,&quot;Risk Level&quot;:5},{&quot;IP Address&quot;:&quot;100.64.0.6&quot;,&quot;Reputation&quot;:100,&quot;Risk Level&quot;:5},{&quot;IP Address&quot;:&quot;204.79.197.239&quot;,&quot;Reputation&quot;:81,&quot;Risk Level&quot;:5},{&quot;IP Address&quot;:&quot;13.107.21.239&quot;,&quot;Reputation&quot;:83,&quot;Risk Level&quot;:5}]&lt;/div&gt;&lt;div&gt;Parameter 4: Data Field Title&lt;/div&gt;&lt;div&gt;Parameter 5: Data Field Name&lt;/div&gt;&lt;div&gt;Parameter 6: Title&lt;/div&gt;&lt;div&gt;Malicious Outbound TCP Connection IP Reputation&lt;/div&gt;&lt;div&gt;Parameter 7: Description&lt;/div&gt;&lt;div&gt;Check IP reputation of outbound TCP connection to external IPs&lt;/div&gt;&lt;div&gt;Parameter 8: Highlight Values&lt;/div&gt;&lt;div&gt;[]&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="6045" y="862.5" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-208" value="&lt;h1&gt;Output&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="6045" y="897.5" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-212" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NKeEgVbL9whLPdXC6YmX-209" target="NKeEgVbL9whLPdXC6YmX-211">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-209" value="Get Command Lines Details&lt;br&gt;Data Formatter -&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="6480" y="770" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-214" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NKeEgVbL9whLPdXC6YmX-211" target="NKeEgVbL9whLPdXC6YmX-213">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-211" value="Convert to Strings&lt;br&gt;Data Formatter -&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="6780" y="770" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-213" value="Extract Artifacts" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="7030" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-215" value="&lt;h1&gt;Input&lt;/h1&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Data Formatter&lt;/div&gt;&lt;div&gt;{% set cmd = PlaybookData | jsonpath(&#39;$.[&quot;Get Process Details by IPv4&quot;].returnData[*].command_line&#39;)|to_list|unique %}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;{{cmd}}&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="6490" y="592.5" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-216" value="&lt;h1&gt;Output&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="6490" y="627.5" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-217" value="&lt;h1&gt;Input&lt;/h1&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Data Formatter&lt;/div&gt;&lt;div&gt;{% set cmd = PlaybookData | jsonpath(&#39;$.[&quot;Get Process Details by IPv4&quot;].returnData[*].command_line&#39;)|to_list|unique %}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;{{cmd}}&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="6745" y="600" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-218" value="&lt;h1&gt;Output&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="6745" y="635" width="200" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
