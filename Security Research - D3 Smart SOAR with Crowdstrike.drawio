@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T23:28:22.550Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="u0DjO7rDYuYJWwazN7rG" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T23:30:52.226Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="2nIfWz7BUuxhpVTJJyHp" version="22.0.4" type="github">
   <diagram name="Page-1" id="wvW3ehxdYdoYtSaxa3fH">
-    <mxGraphModel dx="7000" dy="3827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1500" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -445,8 +445,17 @@
         <mxCell id="NKeEgVbL9whLPdXC6YmX-167" value="Get Network Connections&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Stage -&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="4570" y="810" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NKeEgVbL9whLPdXC6YmX-171" target="NKeEgVbL9whLPdXC6YmX-187">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NKeEgVbL9whLPdXC6YmX-171" value="Get Host Related Detections from Crowdstrike&lt;br&gt;Command - RSA_CrowdstrikeHostRelatedDetection" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="4800" y="350" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-184" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NKeEgVbL9whLPdXC6YmX-173" target="NKeEgVbL9whLPdXC6YmX-183">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NKeEgVbL9whLPdXC6YmX-173" target="NKeEgVbL9whLPdXC6YmX-187">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NKeEgVbL9whLPdXC6YmX-173" value="Get Process Info by SHA256&lt;br&gt;Command - RSA_CrowdstrikeGetProcessbyIOCs" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="4800" y="580" width="340" height="60" as="geometry" />
@@ -471,6 +480,18 @@
         </mxCell>
         <mxCell id="NKeEgVbL9whLPdXC6YmX-182" value="&lt;h1&gt;Output&lt;/h1&gt;&lt;p&gt;[&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;52.226.139.185&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;54.67.92.206&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;52.178.17.3&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;52.33.195.208&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;34.211.152.164&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;54.67.48.56&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;52.226.139.121&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;52.226.139.180&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;185.159.159.170&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;172.64.140.31&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;172.67.194.22&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;40.113.110.67&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;185.183.33.217&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;54.67.68.88&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;20.66.84.207&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;40.99.16.226&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;104.21.20.191&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;100.64.0.6&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;23.192.47.10&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;204.79.197.239&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;65.9.42.42&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;23.192.46.235&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;142.251.42.131&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;13.107.21.239&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;52.111.245.2&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;23.43.249.42&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;52.112.115.3&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;20.198.119.84&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;138.199.21.216&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;168.63.129.16&quot;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &quot;54.183.140.32&quot;&lt;/p&gt;&lt;p&gt;]&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4870" y="690" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-183" value="Investigation-Correlate Process Info&lt;br&gt;Command - RSA_InvestigationTableUpdate" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="5230" y="580" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-185" value="&lt;h1&gt;Input&lt;/h1&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Command Name&lt;/div&gt;&lt;div&gt;RSA_InvestigationTableUpdate&lt;/div&gt;&lt;div&gt;Parameter 1: Incident No.&lt;/div&gt;&lt;div&gt;20230425-1573&lt;/div&gt;&lt;div&gt;Parameter 2: Investigation Section&lt;/div&gt;&lt;div&gt;Findings: Data Correlations&lt;/div&gt;&lt;div&gt;Parameter 3: Data&lt;/div&gt;&lt;div&gt;[]&lt;/div&gt;&lt;div&gt;Parameter 4: Data Field Title&lt;/div&gt;&lt;div&gt;Parameter 5: Data Field Name&lt;/div&gt;&lt;div&gt;Parameter 6: Title&lt;/div&gt;&lt;div&gt;Process Information Related to Malicious SHA256&lt;/div&gt;&lt;div&gt;Parameter 7: Description&lt;/div&gt;&lt;div&gt;Parameter 8: Highlight Values&lt;/div&gt;&lt;div&gt;[&quot;commander.exe&quot;]&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5300" y="405" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-186" value="&lt;h1&gt;Output&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5300" y="440" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NKeEgVbL9whLPdXC6YmX-187" value="Containment&lt;br&gt;Stage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6770" y="290" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
