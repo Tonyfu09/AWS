@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-09T18:45:21.200Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="1l2ClbDTdwJzMAfNtRwJ" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-09T18:46:11.804Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="8EBOmYRfFyDnY8HXnMmV" version="22.1.0" type="github">
   <diagram name="Page-1" id="UhK_3lZECE2UWZ7VzEM1">
-    <mxGraphModel dx="722" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="859" dy="472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,6 +15,9 @@
         <mxCell id="DTO9uW7GRDYrV7bWMB7X-1" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.github" vertex="1" parent="1">
           <mxGeometry x="60" y="182.5" width="75" height="75" as="geometry" />
         </mxCell>
+        <mxCell id="DTO9uW7GRDYrV7bWMB7X-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DTO9uW7GRDYrV7bWMB7X-2" target="DTO9uW7GRDYrV7bWMB7X-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="DTO9uW7GRDYrV7bWMB7X-2" value="AWS CodeBuild" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.codebuild;" vertex="1" parent="1">
           <mxGeometry x="240" y="182.5" width="80" height="110" as="geometry" />
         </mxCell>
@@ -28,6 +31,26 @@
         </mxCell>
         <mxCell id="DTO9uW7GRDYrV7bWMB7X-5" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="82.5" y="30" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DTO9uW7GRDYrV7bWMB7X-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DTO9uW7GRDYrV7bWMB7X-8" target="DTO9uW7GRDYrV7bWMB7X-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DTO9uW7GRDYrV7bWMB7X-8" value="AWS CodeDeploy" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.codedeploy;" vertex="1" parent="1">
+          <mxGeometry x="420" y="183" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="DTO9uW7GRDYrV7bWMB7X-9" value="AWS Fargate" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.fargate;" vertex="1" parent="1">
+          <mxGeometry x="590" y="188" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DTO9uW7GRDYrV7bWMB7X-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DTO9uW7GRDYrV7bWMB7X-12" target="DTO9uW7GRDYrV7bWMB7X-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DTO9uW7GRDYrV7bWMB7X-14" value="Access the Web Site" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DTO9uW7GRDYrV7bWMB7X-13">
+          <mxGeometry x="0.2174" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DTO9uW7GRDYrV7bWMB7X-12" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;" vertex="1" parent="1">
+          <mxGeometry x="615" y="380" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
