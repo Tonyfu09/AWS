@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-16T19:54:50.201Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="9n6fSOP2ta0qqm9HfDyl" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-16T19:55:10.942Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="CaAHjUuKUByo_ypBwlQN" version="22.1.2" type="github">
   <diagram name="Page-1" id="WNJrCO1GwOrWOz3Foawp">
     <mxGraphModel dx="797" dy="405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
         <mxCell id="spzkoTkYvzMsH_ZScZPy-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="spzkoTkYvzMsH_ZScZPy-10" target="spzkoTkYvzMsH_ZScZPy-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="spzkoTkYvzMsH_ZScZPy-13" value="IPv4 :&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="spzkoTkYvzMsH_ZScZPy-12">
+        <mxCell id="spzkoTkYvzMsH_ZScZPy-13" value="Outbound IPv4 Address" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="spzkoTkYvzMsH_ZScZPy-12">
           <mxGeometry x="-0.6923" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
